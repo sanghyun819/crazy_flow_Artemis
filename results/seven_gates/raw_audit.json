@@ -1,0 +1,208 @@
+{
+  "passed": false,
+  "checks": {
+    "finite_states": true,
+    "start_and_finish_match": true,
+    "rest_endpoints": true,
+    "C3_continuity": true,
+    "gate_order_once_each": true,
+    "gate_direction_forward": true,
+    "gate_aperture_clearance": true,
+    "all_frames_clearance": true,
+    "horizontal_wall_margin": true,
+    "floor_ceiling_clearance": true,
+    "planner_position_bounds": true,
+    "speed_limit": false,
+    "tilt_limit_sampled": true,
+    "bodyrate_limit_sampled": true,
+    "rotor_thrust_planning_limit_sampled": true,
+    "rotor_thrust_hardware_limit_sampled": true
+  },
+  "duration_s": 17.115694571042877,
+  "pieces": 16,
+  "length_m_sampled": 21.412566034231403,
+  "position_min_m": [
+    -1.9856430638766107,
+    -2.0662394797510224,
+    0.6817363116533133
+  ],
+  "position_max_m": [
+    2.144051491028663,
+    2.5975329621243386,
+    1.4360365616198358
+  ],
+  "max_speed_m_s": 1.5009543777541134,
+  "max_acceleration_m_s2_sampled": 3.5742318716063637,
+  "max_tilt_deg_sampled": 20.00030467630069,
+  "max_bodyrate_xy_rad_s_sampled": 1.795501829435294,
+  "max_bodyrate_z_rad_s_sampled": 0.09183433258914067,
+  "rotor_thrust_min_N_sampled": 0.07036427677406448,
+  "rotor_thrust_max_N_sampled": 0.08975201280501865,
+  "rotor_min_each_N_sampled": [
+    0.07064711172213306,
+    0.07061498446247085,
+    0.0704132599219567,
+    0.07036427677406448
+  ],
+  "rotor_max_each_N_sampled": [
+    0.08966130636252252,
+    0.08965879505258857,
+    0.08975201280501865,
+    0.0897184342608842
+  ],
+  "vehicle_to_wall_gap_m": 1.7959485089713367,
+  "vehicle_to_floor_gap_m": 0.6217363116533132,
+  "vehicle_to_ceiling_gap_m": 0.5139634383801639,
+  "max_join_error_pvaj": [
+    2.890761521921054e-14,
+    4.7867741199238634e-14,
+    1.8597823047941585e-13,
+    2.526177766756836e-13
+  ],
+  "crossings": [
+    {
+      "gate": 1,
+      "time_s": 0.6963597270287183,
+      "position_m": [
+        1.5278291604715026,
+        -1.5,
+        1.251400082448988
+      ],
+      "normal_speed_m_s": 1.4573469775136163,
+      "lateral_offset_m": -0.027829160471502634,
+      "vertical_offset_m": 0.001400082448987927,
+      "edge_to_vehicle_m": 0.16217083952849737
+    },
+    {
+      "gate": 2,
+      "time_s": 3.5441109716468,
+      "position_m": [
+        -0.04667109241037522,
+        2.0391616964281862,
+        1.2502768956513215
+      ],
+      "normal_speed_m_s": 1.2908795468384118,
+      "lateral_offset_m": 0.06092478423360396,
+      "vertical_offset_m": 0.00027689565132149596,
+      "edge_to_vehicle_m": 0.12907521576639605
+    },
+    {
+      "gate": 3,
+      "time_s": 5.2034958535751885,
+      "position_m": [
+        1.9700991551931435,
+        1.982736739201764,
+        1.2511344922939063
+      ],
+      "normal_speed_m_s": 1.4951192226294743,
+      "lateral_offset_m": -0.0345265215964717,
+      "vertical_offset_m": 0.0011344922939062752,
+      "edge_to_vehicle_m": 0.1554734784035283
+    },
+    {
+      "gate": 4,
+      "time_s": 7.617079465944933,
+      "position_m": [
+        4.996003610813204e-16,
+        -0.01895654048065204,
+        1.254282459465799
+      ],
+      "normal_speed_m_s": 1.4600640521787867,
+      "lateral_offset_m": 0.01895654048065204,
+      "vertical_offset_m": 0.004282459465799082,
+      "edge_to_vehicle_m": 0.17104345951934796
+    },
+    {
+      "gate": 5,
+      "time_s": 9.546198974448478,
+      "position_m": [
+        -1.5351696130190144,
+        1.9999999999999996,
+        1.2960101222157532
+      ],
+      "normal_speed_m_s": 1.1967957008101004,
+      "lateral_offset_m": 0.035169613019014445,
+      "vertical_offset_m": 0.04601012221575318,
+      "edge_to_vehicle_m": 0.14398987778424682
+    },
+    {
+      "gate": 6,
+      "time_s": 10.813516595424279,
+      "position_m": [
+        -1.4880991915878425,
+        1.9999999999999996,
+        0.6851185717582318
+      ],
+      "normal_speed_m_s": 0.987530892370132,
+      "lateral_offset_m": 0.01190080841215746,
+      "vertical_offset_m": -0.06488142824176824,
+      "edge_to_vehicle_m": 0.12511857175823177
+    },
+    {
+      "gate": 7,
+      "time_s": 13.622434209818394,
+      "position_m": [
+        -1.5179669650045944,
+        -1.53111969624577,
+        1.2460276130169257
+      ],
+      "normal_speed_m_s": 1.206188511936329,
+      "lateral_offset_m": -0.03593393000918928,
+      "vertical_offset_m": -0.003972386983074339,
+      "edge_to_vehicle_m": 0.15406606999081074
+    }
+  ],
+  "frames": [
+    {
+      "gate": 1,
+      "sample_index": 663,
+      "sampled_surface_gap_m": 0.15901295037789484,
+      "conservative_surface_gap_m": 0.1582624865810158
+    },
+    {
+      "gate": 2,
+      "sample_index": 3599,
+      "sampled_surface_gap_m": 0.12094689536436151,
+      "conservative_surface_gap_m": 0.12019643156748246
+    },
+    {
+      "gate": 3,
+      "sample_index": 5183,
+      "sampled_surface_gap_m": 0.15467790750681923,
+      "conservative_surface_gap_m": 0.1539274437099402
+    },
+    {
+      "gate": 4,
+      "sample_index": 7577,
+      "sampled_surface_gap_m": 0.15740170835141354,
+      "conservative_surface_gap_m": 0.1566512445545345
+    },
+    {
+      "gate": 5,
+      "sample_index": 9518,
+      "sampled_surface_gap_m": 0.13793241817054352,
+      "conservative_surface_gap_m": 0.13718195437366448
+    },
+    {
+      "gate": 6,
+      "sample_index": 10883,
+      "sampled_surface_gap_m": 0.12227084215289966,
+      "conservative_surface_gap_m": 0.1215203783560206
+    },
+    {
+      "gate": 7,
+      "sample_index": 13711,
+      "sampled_surface_gap_m": 0.1426612027607857,
+      "conservative_surface_gap_m": 0.14191073896390666
+    }
+  ],
+  "audit_step_s": 0.0009999821553563493,
+  "frame_gap_inter_sample_bound_m": 0.0007504637968790532,
+  "notes": [
+    "Polynomial roots: bounds, gate-plane crossings, maximum speed.",
+    "Frame clearance lower bound = sample minimum - vehicle radius - max_speed * max_dt / 2.",
+    "Dynamics extrema are sampled, not certified continuous-time bounds.",
+    "Rigid body, no drag or motor lag; fixed pre-tilt yaw 0; gravity matches compiled TOGT.",
+    "Frame depth is an explicit 0.08 m modelling assumption; drone envelope is a sphere."
+  ]
+}

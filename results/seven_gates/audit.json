@@ -1,0 +1,387 @@
+{
+  "passed": true,
+  "checks": {
+    "finite_states": true,
+    "start_and_finish_match": true,
+    "rest_endpoints": true,
+    "C3_continuity": true,
+    "gate_order_once_each": true,
+    "gate_direction_forward": true,
+    "gate_aperture_clearance": true,
+    "all_frames_clearance": true,
+    "horizontal_wall_margin": true,
+    "floor_ceiling_clearance": true,
+    "planner_position_bounds": true,
+    "speed_limit": true,
+    "tilt_limit_sampled": true,
+    "bodyrate_limit_sampled": true,
+    "rotor_thrust_planning_limit_sampled": true,
+    "rotor_thrust_hardware_limit_sampled": true
+  },
+  "duration_s": 17.629165408174163,
+  "pieces": 16,
+  "length_m_sampled": 21.41256608274148,
+  "position_min_m": [
+    -1.9856430638766107,
+    -2.0662394797510224,
+    0.6817363116533133
+  ],
+  "position_max_m": [
+    2.144051491028663,
+    2.5975329621243386,
+    1.4360365616198358
+  ],
+  "max_speed_m_s": 1.45723725995545,
+  "max_acceleration_m_s2_sampled": 3.3690446525038102,
+  "max_tilt_deg_sampled": 18.93761882319377,
+  "max_bodyrate_xy_rad_s_sampled": 1.6469093715829035,
+  "max_bodyrate_z_rad_s_sampled": 0.07967327578324851,
+  "rotor_thrust_min_N_sampled": 0.07074018027726905,
+  "rotor_thrust_max_N_sampled": 0.08906527145181159,
+  "rotor_min_each_N_sampled": [
+    0.07098789527217234,
+    0.07096289736694233,
+    0.07078353751717961,
+    0.07074018027726905
+  ],
+  "rotor_max_each_N_sampled": [
+    0.08898456605694892,
+    0.08898351932855074,
+    0.08906527145181159,
+    0.0890357039490891
+  ],
+  "vehicle_to_wall_gap_m": 1.7959485089713367,
+  "vehicle_to_floor_gap_m": 0.6217363116533132,
+  "vehicle_to_ceiling_gap_m": 0.5139634383801639,
+  "max_join_error_pvaj": [
+    2.8743414668394584e-14,
+    4.777032309727788e-14,
+    1.6794035291311044e-13,
+    2.401963232088697e-13
+  ],
+  "crossings": [
+    {
+      "gate": 1,
+      "time_s": 0.7172505188395798,
+      "position_m": [
+        1.5278291604715026,
+        -1.5,
+        1.251400082448988
+      ],
+      "normal_speed_m_s": 1.4148999781685596,
+      "lateral_offset_m": -0.027829160471502634,
+      "vertical_offset_m": 0.001400082448987927,
+      "edge_to_vehicle_m": 0.16217083952849737
+    },
+    {
+      "gate": 2,
+      "time_s": 3.6504343007962037,
+      "position_m": [
+        -0.0466710924103752,
+        2.0391616964281862,
+        1.2502768956513215
+      ],
+      "normal_speed_m_s": 1.2532811134353512,
+      "lateral_offset_m": 0.06092478423360395,
+      "vertical_offset_m": 0.00027689565132149596,
+      "edge_to_vehicle_m": 0.12907521576639605
+    },
+    {
+      "gate": 3,
+      "time_s": 5.359600729182445,
+      "position_m": [
+        1.970099155193143,
+        1.9827367392017645,
+        1.2511344922939063
+      ],
+      "normal_speed_m_s": 1.451572060805315,
+      "lateral_offset_m": -0.03452652159647187,
+      "vertical_offset_m": 0.0011344922939062752,
+      "edge_to_vehicle_m": 0.15547347840352813
+    },
+    {
+      "gate": 4,
+      "time_s": 7.845591849923282,
+      "position_m": [
+        3.3306690738754696e-16,
+        -0.01895654048065199,
+        1.254282459465799
+      ],
+      "normal_speed_m_s": 1.417537914736686,
+      "lateral_offset_m": 0.01895654048065199,
+      "vertical_offset_m": 0.004282459465799082,
+      "edge_to_vehicle_m": 0.17104345951934802
+    },
+    {
+      "gate": 5,
+      "time_s": 9.832584943681931,
+      "position_m": [
+        -1.5351696130190144,
+        1.9999999999999996,
+        1.2960101222157532
+      ],
+      "normal_speed_m_s": 1.1619375736020392,
+      "lateral_offset_m": 0.035169613019014445,
+      "vertical_offset_m": 0.04601012221575318,
+      "edge_to_vehicle_m": 0.14398987778424682
+    },
+    {
+      "gate": 6,
+      "time_s": 11.137922093287006,
+      "position_m": [
+        -1.4880991915878423,
+        2.0000000000000004,
+        0.6851185717582319
+      ],
+      "normal_speed_m_s": 0.9587678566700306,
+      "lateral_offset_m": 0.011900808412157682,
+      "vertical_offset_m": -0.06488142824176812,
+      "edge_to_vehicle_m": 0.12511857175823188
+    },
+    {
+      "gate": 7,
+      "time_s": 14.031107236112947,
+      "position_m": [
+        -1.5179669650045948,
+        -1.5311196962457696,
+        1.2460276130169254
+      ],
+      "normal_speed_m_s": 1.1710568077051735,
+      "lateral_offset_m": -0.03593393000918911,
+      "vertical_offset_m": -0.003972386983074561,
+      "edge_to_vehicle_m": 0.1540660699908109
+    }
+  ],
+  "frames": [
+    {
+      "gate": 1,
+      "sample_index": 683,
+      "sampled_surface_gap_m": 0.15901344964601863,
+      "conservative_surface_gap_m": 0.15828486550833498
+    },
+    {
+      "gate": 2,
+      "sample_index": 3707,
+      "sampled_surface_gap_m": 0.12094751838547058,
+      "conservative_surface_gap_m": 0.12021893424778693
+    },
+    {
+      "gate": 3,
+      "sample_index": 5339,
+      "sampled_surface_gap_m": 0.1546779388359702,
+      "conservative_surface_gap_m": 0.15394935469828655
+    },
+    {
+      "gate": 4,
+      "sample_index": 7804,
+      "sampled_surface_gap_m": 0.157401696929486,
+      "conservative_surface_gap_m": 0.15667311279180235
+    },
+    {
+      "gate": 5,
+      "sample_index": 9804,
+      "sampled_surface_gap_m": 0.13793237762272564,
+      "conservative_surface_gap_m": 0.137203793485042
+    },
+    {
+      "gate": 6,
+      "sample_index": 11210,
+      "sampled_surface_gap_m": 0.12227095274533373,
+      "conservative_surface_gap_m": 0.12154236860765008
+    },
+    {
+      "gate": 7,
+      "sample_index": 14122,
+      "sampled_surface_gap_m": 0.1426615179456373,
+      "conservative_surface_gap_m": 0.14193293380795366
+    }
+  ],
+  "audit_step_s": 0.0009999526607025189,
+  "frame_gap_inter_sample_bound_m": 0.0007285841376836502,
+  "notes": [
+    "Polynomial roots: bounds, gate-plane crossings, maximum speed.",
+    "Frame clearance lower bound = sample minimum - vehicle radius - max_speed * max_dt / 2.",
+    "Dynamics extrema are sampled, not certified continuous-time bounds.",
+    "Rigid body, no drag or motor lag; fixed pre-tilt yaw 0; gravity matches compiled TOGT.",
+    "Frame depth is an explicit 0.08 m modelling assumption; drone envelope is a sphere."
+  ],
+  "raw_duration_s": 17.115694571042877,
+  "time_scale": 1.03,
+  "vehicle": {
+    "mass": 0.0319,
+    "inertia": [
+      1.68e-05,
+      1.68e-05,
+      2.98e-05
+    ],
+    "T_bm": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        -0.03253,
+        -0.03253,
+        0.03253,
+        0.03253
+      ],
+      [
+        -0.03253,
+        0.03253,
+        0.03253,
+        -0.03253
+      ],
+      [
+        -0.007350862856566459,
+        0.007350862856566459,
+        -0.007350862856566459,
+        0.007350862856566459
+      ]
+    ]
+  },
+  "settings": {
+    "frame_depth_m": 0.08,
+    "tracking_reserve_m": 0.02,
+    "gate_corridor_length_m": 0.6,
+    "gravity_m_s2": 9.8066,
+    "hardware_rotor_thrust_min_N": 0.012817578393224994,
+    "hardware_rotor_thrust_max_N": 0.12,
+    "audit_step_s": 0.001,
+    "routing_points": [
+      {
+        "after_gate": 1,
+        "position": [
+          0.6,
+          0.65,
+          1.25
+        ],
+        "radius_m": 0.05
+      }
+    ]
+  },
+  "limits": {
+    "piecesPerSegment": 1,
+    "speedGuess": 0.5,
+    "maxVelNorm": 1.5,
+    "maxOmgXY": 4.0,
+    "maxOmgZ": 2.0,
+    "maxTiltedAngle": 0.6108652381980153,
+    "maxThr": 0.112,
+    "minThr": 0.012817578393224994,
+    "weightTime": 1.0,
+    "weightEnergy": 0.0,
+    "weightPos": 1000.0,
+    "weightVel": 100.0,
+    "weightOmg": 100.0,
+    "weightRot": 100.0,
+    "weightThr": 100000.0,
+    "smoothingEps": 0.01,
+    "numConstPena": 32,
+    "dynamicConstCheck": true,
+    "minNumCheck": 24,
+    "maxNumCheck": 128,
+    "checkTimeSec": 0.02,
+    "boundX": [
+      -2.44,
+      2.44
+    ],
+    "boundY": [
+      -3.94,
+      3.94
+    ],
+    "boundZ": [
+      0.25,
+      1.7
+    ]
+  },
+  "source_course": {
+    "room": {
+      "size_x": 8.0,
+      "size_y": 11.0,
+      "height": 2.01,
+      "safety_margin": 1.5
+    },
+    "start": {
+      "x": 1.5,
+      "y": -2.0,
+      "takeoff_z": 1.25
+    },
+    "gate": {
+      "inner_size": 0.5,
+      "frame_thickness": 0.08,
+      "allowed_mount_z": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "drone_radius": 0.06,
+      "frame_margin": 0.1
+    },
+    "gates": [
+      {
+        "id": 1,
+        "x": 1.5,
+        "y": -1.5,
+        "mount_z": 1.0,
+        "yaw_deg": 270
+      },
+      {
+        "id": 2,
+        "x": 0.0,
+        "y": 2.0,
+        "mount_z": 1.0,
+        "yaw_deg": 310
+      },
+      {
+        "id": 3,
+        "x": 2.0,
+        "y": 2.0,
+        "mount_z": 1.0,
+        "yaw_deg": 60
+      },
+      {
+        "id": 4,
+        "x": 0.0,
+        "y": 0.0,
+        "mount_z": 1.0,
+        "yaw_deg": 180
+      },
+      {
+        "id": 5,
+        "x": -1.5,
+        "y": 2.0,
+        "mount_z": 1.0,
+        "yaw_deg": 270
+      },
+      {
+        "id": 6,
+        "x": -1.5,
+        "y": 2.0,
+        "mount_z": 0.5,
+        "yaw_deg": 90
+      },
+      {
+        "id": 7,
+        "x": -1.5,
+        "y": -1.5,
+        "mount_z": 1.0,
+        "yaw_deg": 30
+      }
+    ]
+  },
+  "provenance": {
+    "audit_time_utc": "2026-09-24T03:37:44.338921+00:00",
+    "togt_git_revision": "6707d3a1d06e4bd33d4aaa5e6f9fa02497ee90c5",
+    "sha256": {
+      "config/seven_gates.yaml": "371be7c86c963feb776f13768684649b34e33e36c405b7756869defcbfa84c97",
+      "config/togt/quad.yaml": "5e4677d48da50fb18646d465b010cb40b03872914fa737fb94705e8a59a4b8e0",
+      "config/togt/planning.yaml": "a6e442a42ebb7ab2100d52acac1843c590d3c42d6ac8315247c7c47e6961a254",
+      "config/togt/audit.yaml": "9bf635417749d5d3d7525558f488e65827d2c3cce98f2acb1343d6fd1014674c",
+      "results/seven_gates/track.yaml": "8618f5a9ea871aea609e71d42d377734d3bdc60b0db9690f61c7d0dc1569d155",
+      "results/seven_gates/togt_raw_polynomial.csv": "6d38c773159c4f5cc6d0d5e0a637e7b91f1db834cfc2652bfcec1a382cfe44ec",
+      "results/seven_gates/togt_polynomial.csv": "494d78464f17f114d54c44e676b864f321905daca993503a038bc88d44aff04b"
+    }
+  }
+}

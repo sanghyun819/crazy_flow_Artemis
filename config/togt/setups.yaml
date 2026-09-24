@@ -1,0 +1,5 @@
+planningInit: "planning.yaml"
+planningRefine: "planning.yaml"
+lbfgsInit: "lbfgs.yaml"
+lbfgsRefine: "lbfgs.yaml"
+quadrotor: "quad.yaml"

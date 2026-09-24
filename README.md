@@ -1,5 +1,9 @@
 # Crazyflie Gate Route
 
+실측 배치의 **7게이트 TOGT 경로**를 추가했습니다: [결과·기체 사양·검증·재현 방법](docs/TOGT_SEVEN_GATES.md). 약 21.41 m / 17.63초, Crazyflie 31.9 g 모델과 반경 0.06 m·프레임 여유 0.10 m를 적용했습니다. 아래 4게이트 예제는 초기 기능 설명용입니다.
+
+![Seven-gate TOGT result](docs/seven-gates-togt-path.png)
+
 Crazyflie 실험용 게이트 통과 경로를 YAML에서 생성·검증·시각화하는 작은 독립 도구입니다. 각 게이트를 **진입점 → 게이트 중심 → 이탈점**으로 확장합니다. 출력은 컨트롤러 중립적이므로 Crazyswarm `goTo`, MAVLink setpoint, 또는 별도 궤적 최적화기로 연결할 수 있습니다.
 
 ![4-gate example](docs/route-preview.png)

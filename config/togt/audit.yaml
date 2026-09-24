@@ -1,0 +1,14 @@
+# Collision model: a sphere enclosing the configured drone envelope.
+# Radius and requested frame clearance are read from seven_gates.yaml.
+frame_depth_m: 0.08  # Assumption: depth is not specified independently in gates.yaml.
+tracking_reserve_m: 0.02
+gate_corridor_length_m: 0.60
+gravity_m_s2: 9.8066  # Actual constant compiled into TOGT (not the ignored YAML gravity field).
+hardware_rotor_thrust_min_N: 0.012817578393224994
+hardware_rotor_thrust_max_N: 0.12
+audit_step_s: 0.001
+# Prevent G1 -> G2 from cutting close to the G4 frame at the room origin.
+routing_points:
+  - after_gate: 1
+    position: [0.60, 0.65, 1.25]
+    radius_m: 0.05

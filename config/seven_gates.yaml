@@ -1,0 +1,26 @@
+# User-provided seven-gate layout. SI units; origin at room centre, Z up.
+# yaw_deg: clockwise from +X, normal = [cos(-yaw), sin(-yaw), 0].
+# mount_z: opening bottom; centre height = mount_z + inner_size / 2.
+room:
+  size_x: 8.0
+  size_y: 11.0
+  height: 2.01
+  safety_margin: 1.5
+start:
+  x: 1.5
+  y: -2.0
+  takeoff_z: 1.25
+gate:
+  inner_size: 0.5
+  frame_thickness: 0.08
+  allowed_mount_z: [0.0, 0.5, 1.0]
+  drone_radius: 0.06
+  frame_margin: 0.10
+gates:
+  - {id: 1, x: 1.5, y: -1.5, mount_z: 1.0, yaw_deg: 270}
+  - {id: 2, x: 0.0, y: 2.0, mount_z: 1.0, yaw_deg: 310}
+  - {id: 3, x: 2.0, y: 2.0, mount_z: 1.0, yaw_deg: 60}
+  - {id: 4, x: 0.0, y: 0.0, mount_z: 1.0, yaw_deg: 180}
+  - {id: 5, x: -1.5, y: 2.0, mount_z: 1.0, yaw_deg: 270}
+  - {id: 6, x: -1.5, y: 2.0, mount_z: 0.5, yaw_deg: 90}
+  - {id: 7, x: -1.5, y: -1.5, mount_z: 1.0, yaw_deg: 30}

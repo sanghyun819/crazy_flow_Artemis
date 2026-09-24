@@ -1,0 +1,6 @@
+# Existing /home/sh/togt_ws/parameters/crazyflie/crazyflie_quad.yaml model.
+# Source: crazyflow/crazyflow/drones/params.toml [cf2x_L250].
+# TOGT reads mass, inertia, T_bm here; thrust limits belong in planning.yaml.
+mass: 0.0319
+inertia: [0.0000168, 0.0000168, 0.0000298]
+T_bm: [[1.0, 1.0, 1.0, 1.0], [-0.03253, -0.03253, 0.03253, 0.03253], [-0.03253, 0.03253, 0.03253, -0.03253], [-0.007350862856566459, 0.007350862856566459, -0.007350862856566459, 0.007350862856566459]]

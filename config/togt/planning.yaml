@@ -1,0 +1,27 @@
+# Selected indoor planning limits (not identified hardware limits).
+# Bounds include 0.06 m vehicle envelope in the 1.5 m horizontal wall margin.
+piecesPerSegment: 1
+speedGuess: 0.5
+maxVelNorm: 1.5
+maxOmgXY: 4.0
+maxOmgZ: 2.0
+maxTiltedAngle: 0.6108652381980153
+# N per rotor. 0.112 leaves reserve below the hardware-model 0.12 N.
+maxThr: 0.112
+minThr: 0.012817578393224994
+weightTime: 1.0
+weightEnergy: 0.0
+weightPos: 1000.0
+weightVel: 100.0
+weightOmg: 100.0
+weightRot: 100.0
+weightThr: 100000.0
+smoothingEps: 0.01
+numConstPena: 32
+dynamicConstCheck: true
+minNumCheck: 24
+maxNumCheck: 128
+checkTimeSec: 0.02
+boundX: [-2.44, 2.44]
+boundY: [-3.94, 3.94]
+boundZ: [0.25, 1.70]
