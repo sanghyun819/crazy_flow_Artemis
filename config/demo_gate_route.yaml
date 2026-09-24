@@ -1,0 +1,49 @@
+# Laboratory example; positions are in the measured Crazyswarm/Qualisys world
+# frame in metres (+Z up). This is not an official VADR course.
+schema_version: 1
+frame: world_z_up
+
+spec_reference:
+  document: VADR-TS-002
+  issue: "00.02"
+  note: "The specification defines the gate opening but does not publish course poses."
+
+vehicle:
+  # Conservative route-planning clearance. Set it from the actual vehicle,
+  # prop guards, tracking error, and the flight-test risk assessment.
+  safety_radius_m: 0.15
+
+route:
+  approach_distance_m: 0.45
+  exit_distance_m: 0.45
+  transit_speed_m_s: 0.30
+  gate_speed_m_s: 0.20
+  min_leg_duration_s: 1.50
+
+start: [0.0, 0.0, 1.0]
+
+# yaw_deg specifies travel direction around +Z:
+# normal = [cos(yaw), sin(yaw), 0].
+gates:
+  - id: Gate1
+    center: [1.0, 0.0, 1.0]
+    yaw_deg: 0.0
+    inner_width_m: 1.5
+    inner_height_m: 1.5
+  - id: Gate2
+    center: [1.6, 1.0, 1.0]
+    yaw_deg: 90.0
+    inner_width_m: 1.5
+    inner_height_m: 1.5
+  - id: Gate3
+    center: [0.6, 1.6, 1.0]
+    yaw_deg: 180.0
+    inner_width_m: 1.5
+    inner_height_m: 1.5
+  - id: Gate4
+    center: [0.0, 0.6, 1.0]
+    yaw_deg: -90.0
+    inner_width_m: 1.5
+    inner_height_m: 1.5
+
+finish: [0.0, 0.0, 1.0]
